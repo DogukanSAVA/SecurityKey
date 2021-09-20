@@ -38,5 +38,6 @@ const clipboardButton = document.getElementById('clipboard')
 
 generateButton.addEventListener('click', () => {
 
-          spanResult.innerText = generatePassword()
+          const password =
+
 })

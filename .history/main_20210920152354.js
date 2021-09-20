@@ -32,11 +32,4 @@ const generatePassword = () => {
           return generatePassword
 }
 
-const spanResult = document.getElementById('result')
-const generateButton = document.getElementById('generate')
-const clipboardButton = document.getElementById('clipboard')
 
-generateButton.addEventListener('click', () => {
-
-          spanResult.innerText = generatePassword()
-})

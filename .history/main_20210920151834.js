@@ -24,7 +24,7 @@ const randomFunctions = {
 }
 
 const generatePassword = () => {
-          const length = 35
+          const length = 16
           let generatePassword = ''
           for (let x = 0; x < length; x++)
                     generatePassword += Object.values(randomFunctions)[Math.floor(Math.random() * 4)]()
@@ -36,7 +36,4 @@ const spanResult = document.getElementById('result')
 const generateButton = document.getElementById('generate')
 const clipboardButton = document.getElementById('clipboard')
 
-generateButton.addEventListener('click', () => {
-
-          spanResult.innerText = generatePassword()
-})
+generateButton.addEventListener('click',())
